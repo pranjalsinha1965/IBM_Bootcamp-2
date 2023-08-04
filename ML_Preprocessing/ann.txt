@@ -1,0 +1,25 @@
+1.collect the data---done
+2.data preprocessing
+	1.handle null values
+	2.label encoding
+	3.split dependent and independent variable
+	4.train test split
+	5.feature scaling
+3.Model building
+	1.import all the necessary libraries
+	2. add input layer (inputs==n=no.o input features,weights,activation function=Relu)
+	3.add hidden layer(inputs=2n   n/2,weights,activation function=Relu)
+	4.add op layer(no.of output,weights,activation function)
+	Regression	(1,weights,activation function=Relu)
+	Binary       	(1,weights,activation function=Sigmoid)
+	Categorical	(no.of categories,weights,activation function=softmax)
+	
+	5.compile the model(loss function,acuuracy,optimizer)
+	Regression	(MSE,MSE,minibatch/adam/adadelta/rmsprop)
+	Binary       	(binary cross entropy,accuracy score,minibatch/adam/adadelta/rmsprop)
+	Categorical	(no.of categories,weights,minibatch/adam/adadelta/rmsprop)
+	
+	6.fit the model (x_train,y_train,epochs,batch_size)
+4.prediction
+5.find accuracy
+6.save the model
